@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inquiries & Appointments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact & Bookings</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="trustees.html">Board of Trustees</a>
+            <a href="events.html">Events</a>
+            <a href="inquiries.html">Inquiries</a>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Full Name" required><br><br>
+            <input type="email" id="email" placeholder="Email" required><br><br>
+            <input type="date" required><br><br>
+            <textarea placeholder="Your Inquiry"></textarea><br><br>
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
